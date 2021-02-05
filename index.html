@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- nav -->
+    <header>
+        <a href="#" class="logo">Explore <span>.</span></a>
+        <div class="menuToggle"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#destination" onclick="toggleMenu();">Destination</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <!-- banner -->
+    <section class="banner" id="banner">
+        <img src="images/image1.jpg" class="fitBg">
+        <div class="content">
+            <h2>Explore</h2>
+            <p>Explore is a venture the specializes in cheap tourism </p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="contentBx">
+            <h2 class="tittleText">Feel The Beauty Of The World</h2>
+            <p class="title-text">
+                Picture in the side is fak-fak island which popular to vacation
+            </p>
+            <a href="#destination" class="btn2">Popular Destination</a>
+        </div>
+        <div class="imgBx">
+            <img src="images/image2.jpg" class="fitBg">
+        </div>
+    </section>
+    <section class="destination" id="destination">
+        <div class="content">
+            <h2 class="tittleText">Most Interesting Places to visit and activitied</h2>
+            <p class="title-text">Below is a tourist attraction that you must visit because of beautiful scenery</p>
+        </div>
+        <div class="destination-list">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/image4.jpg" class="fitBg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Island <br> <span>Raja Ampat</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/image5.jpg" class="fitBg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Waterfall(CURUG) <br> <span>Bogor</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/image6.jpg" class="fitBg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Ocean <br> <span>Bali</span></h2>
+                </div>
+            </div>
+        </div>
+        <a href="#testimonial" class="btn3">View More</a>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonial" id="testimonial">
+        <div class="title white">
+            <h2 class="testimonial-Text">They <span>S</span>aid About Us</h2>
+            <p class="testimonial-text">Here are the testimonials from our travel client</p>
+        </div>
+        <div class="testimonial-content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/image7.jpg" class="fitBg" alt="">
+                </div>
+                <div class="text">
+                    <p>Wow, it's amazing because price was affordable and i could enjoy the beautiful view</p>
+                    <h3>Diana Saragih</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/image8.jpg" class="fitBg" alt="">
+                </div>
+                <div class="text">
+                    <p>Worth it for a travel agent for me</p>
+                    <h3>Dimas Evan</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/image9.jpg" class="fitBg" alt="">
+                </div>
+                <div class="text">
+                    <p>Because of this travel agent i'm was enjoy beautiful view for cheap price</p>
+                    <h3>Winda Winelda</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="contact-Text"><span>C</span>ontact Us</h2>
+            <p class="contact-text">Please type this below to book a ticket</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea  placeholder="Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>The company that has been moving in the tourism area for cheap and affortable prices but has been able to enjoy the beautiful scenery</p>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quickLinks"> 
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>Jawa Barat<br> Bogor, 1160 <br>Indonesia</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p><a href="tel:085288771">085288771</a> <br>
+                        <a href="tel:085788992">085788992</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="mailto:codemyhobby9@gmial.com">marcelinookta@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script>
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0)
+        });
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation')
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
